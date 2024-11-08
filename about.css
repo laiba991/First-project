@@ -1,0 +1,196 @@
+*{
+padding:0px;
+margin:0px;
+box-sizing:border-box;
+
+}
+
+#wrapper{
+	width:1200px;
+	height:auto;
+	
+	margin:0px auto;
+	
+}
+
+
+
+div.navbar{background:#01157A;
+	
+	margin-left:20px;
+	margin-right:20px;
+	height:50px;
+    position:sticky;
+	
+}
+
+
+div.navbar ul{
+	
+	list-style-type: none;
+	background:#01157A;
+
+	
+	
+}
+
+div.navbar ul li{
+	background:#01157A;
+	width:400px;
+	
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	
+	float:left;
+	
+}
+
+div.navbar ul li a{
+	text-decoration:none;
+	color:white;
+	background:#01157A;
+	display:block;
+}
+
+div.navbar ul li a:hover{
+	background: linear-gradient( red,yellow);
+	height:50px;
+
+	
+}
+
+
+
+
+.cbox{clear:both;
+}
+
+
+
+#content{width:100%
+         height:auto;
+         margin:30px;
+}
+
+#left{width:40%;
+      height:auto;
+     float:left;
+      margin-top:50px;
+	 
+}
+
+
+#left1 {width:100%;
+background:#9C33FF;
+margin-bottom:50px;}
+
+
+#left1 h1{
+   color:white;
+   font-size:50px;
+   margin-top:50px;
+   text-shadow:2px 2px;
+   margin-left:30px;
+}
+
+#left1 hr{
+   height:5px;
+   background-image:linear-gradient( red,yellow);
+   width:150px;
+   margin-left:30px;
+}
+
+
+
+#left1 li{
+   font-family:arial;
+   color:white;
+   font-size:15px;
+   line-height:15pt;
+   margin-left:30px;}
+   
+   
+}
+
+#left1 a{color:white;
+      background-image:linear-gradient( red,yellow);
+      border-radius:20px;
+      text-decoration:none;
+      padding:10px;
+}
+
+
+#left2 {width:100%;
+background:#0E218B;
+}
+
+
+#left2 h1{
+   color:white;
+   font-size:50px;
+   margin-top:50px;
+   text-shadow:2px 2px;
+   margin-left:30px;
+}
+
+#left2 hr{
+   height:5px;
+   background-image:linear-gradient( red,yellow);
+   width:200px;
+   margin-left:30px;
+}
+
+#left2 p{color:white;
+margin:30px;}
+
+
+#right{
+    width:50%;
+    height:auto;
+    float:right;
+    margin-top:170px;
+	background:#0E728B;
+
+}
+
+#right h1{
+   color:white;
+   font-size:50px;
+   margin-top:50px;
+   text-shadow:2px 2px;
+   margin-left:30px;
+}
+
+#right hr{
+   height:5px;
+   background-image:linear-gradient( red,yellow);
+   width:200px;
+   margin-left:30px;
+}
+
+#right p{color:white;
+text-align:justify;
+font-size:14pt;
+margin:30px;
+}
+#left2 p{color:white;
+text-align:justify;
+font-size:14pt;
+margin-left:30px;
+}
+
+
+
+.cbox{
+clear:both;
+}
+
+#footer{width:100%;
+height:50px;
+background:#01157A;
+color:white;
+font-size:14pt;
+text-align:center;
+line-height:50px;
+}
